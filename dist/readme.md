@@ -1,12 +1,11 @@
 
   # Top 3 Taco Shops
 
-
   ## License
   undefined
 
   ## Description
-  A webpage highlighting three taco shops in Austin, Texas.
+  A webpage highlighting the top three taco shops in Austin, Texas.
 
   ## Table of Contents
   # undefined
@@ -19,13 +18,13 @@
   - [Questions](#Questions)
 
   ## Installation
-  There is no installation for this project as it is  a webpage.
+  The webpage has already been deployed for this project and requires no installation.
 
   ## Usage
-  undefined
+  You can navigate the webpage by seeing the weather display followed by the taco shops and their top tacos, followed by clicking on the dropdown poll on choosing your favorite taco from that shop. You will also see a map displaying those locations.
 
   ## Contributions
-  undefined
+  The project has been completed and requires no contributions from the public. Thank you for your interest.
 
   ## Test
   undefined
