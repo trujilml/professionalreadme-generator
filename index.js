@@ -34,7 +34,25 @@ const questions = () => {
                 return false;
             }
         }
+    },
+        // table of contents will be required, must be implemented
+    {
+        // installation of project - how would you install this project
+        type: 'input',
+        name: 'installation',
+        message: 'How would you install your project? (Required)',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log("Please enter the instructions on how you would install your project.");
+                return false;
+            }
+        }
     }
+
+
+
 ])
 }
 
