@@ -35,7 +35,7 @@ const questions = () => {
             }
         }
     },
-        // table of contents is implemented already, presents data of added information and takes you to link with respective content (see generateMarkdown js file) - ${data.tableofcontents} in generateMarkdown file
+        // table of contents is implemented already, presents data of added information and takes you to link with respective content (see generateMarkdown js file)
     {
         // installation of project - how would you install this project? description is required. ${data.installation} in generateMarkdown file
         type: 'input',
