@@ -35,7 +35,7 @@ const questions = () => {
             }
         }
     },
-        // table of contents is implemented already, presents data of added information and takes you to link with respective content (see generateMarkdown js file)
+        // table of contents is implemented already, presents data of added information and takes you to link with respective content - does not require data attachment (see generateMarkdown js file)
     {
         // installation of project - how would you install this project? description is required. ${data.installation} in generateMarkdown file
         type: 'input',
@@ -65,6 +65,7 @@ const questions = () => {
         }
     },
     {
+        //contributions - how would you want contributors on this project? Required input - ${data.contributions} on generateMarkdown file
         type: 'input',
         name: 'contributions',
         message: 'List how you would want others to contribute on this project. (Required)',
@@ -82,16 +83,10 @@ const questions = () => {
 
 ])
 }
-
-    
-
-
-
    
 
 // should generate the following (from readme guide) - take to markdown file but keep for question prompt reference - also in notes app
 
-//contributing addition (REQUIRED) ${data.contributions}
 // tests/instruction example of project (REQUIRED) ${data.test}
 // addition of license (REQUIRED) ${data.license}
         // badges for license to visually display (in generatemarkdown js)
