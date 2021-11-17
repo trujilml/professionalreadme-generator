@@ -3,7 +3,10 @@
 <!-- add screenshot here or gif of application runthrough -->
 ## Description
 
-This is a README Generator that quickly creates a README.md for your new project!
+This is a README Generator that quickly creates a README.md for your latest project!
+
+Through the use of your terminal and the simple type of `node index.js`, you will enter in a few things about your project and implement it into a professional README.md file.
+
 
 
 
