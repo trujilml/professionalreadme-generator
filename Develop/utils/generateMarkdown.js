@@ -5,12 +5,12 @@
 // }
 
 function renderLicenseBadge(license) {
-  // if (license === "no"){
-  //   return ``
-  // } else {
-    return `![License](http://img.shields.io/badge/license-${license}-blue.svg)`
-  }
-// }
+    if (license === "None"){
+      return ``
+    } else {
+        return `![License](http://img.shields.io/badge/license-${license}-blue.svg)`
+    }
+}
 
 
 // TODO: Create a function that returns the license link

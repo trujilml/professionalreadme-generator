@@ -1,10 +1,10 @@
 
-  # Taco Shop
+  # Taco Shops
 
   ![License](http://img.shields.io/badge/license-None-blue.svg)
 
   ## Description
-  Taco shops
+  tacos
 
   ## Table of Contents
   - [Description](#Description)
@@ -16,10 +16,10 @@
   - [Questions](#Questions)
 
   ## Installation
-  No install
+  no install
 
   ## Usage
-  no use
+  use on page
 
   ## Contributions
   no contributors
