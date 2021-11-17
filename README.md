@@ -1,7 +1,6 @@
 # Professional README Generator 
 
 <!-- add screenshot here or gif of application runthrough -->
-
 ## Description
 
 This is a README Generator that quickly creates a README.md for your new project!
@@ -27,20 +26,30 @@ THEN I am taken to the corresponding section of the README
 
 
 
-
- ## Table of Contents
+## Table of Contents
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [Tests](#Tests)
-  - [Developed with](#Developed-with)
-  - [Helpful resources](#Helpful-resources)
+  - [Developed With](#Developed-with)
+  - [Helpful Resources](#Helpful-resources)
+
+  <!-- further contents with multiple words must have their hashtag terms with a (-)! -->
 
 <!-- implement screenshot and link to a video when recorded -->
 
+## Installation 
+- Clone this file through GitHub (by Code option)
+- Ensure npm is installed on your computer, alongside the Inquirer package
+
+## Usage 
+- Open terminal of readme generator file through Terminal application on Mac or through the terminal on VS Code
+- Type 'node index.js' 
+- Follow and answer with the given prompts - all assets excluding the license and badge are required to fill out the README file
+- A README.md file will be generated when completed.
+
 ## Developed with 
 - Node.js
-- JavaScript
+- JavaScript 
 - Inquirer package (viewable in package.json)
 
 ## Helpful resources
