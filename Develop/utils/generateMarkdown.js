@@ -68,6 +68,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}
 
   ## Questions
   If you have any questions regarding this project, feel free to reach out to the GitHub and/or email below:

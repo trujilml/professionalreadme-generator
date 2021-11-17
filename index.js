@@ -93,11 +93,11 @@ const questions = () => {
         }
     },
     {
-        //license questions ${data.license} and ${license} respectively - will ask users on what license best suits their project and will elect their badge to appear on the readme file. must fit in with the link format or above function on generate markdown page
+        //license questions ${data.license} and ${license} respectively - will ask users on what license best suits their project and will elect their badge to appear on the readme file. they also have the option to not add it.
         type: 'list',
         name: 'license',
         message: 'What license fits with your project? Please choose one.',
-        choices: ['None', 'MIT','Mozilla','GitHub','NPM','Apache 2.0'],
+        choices: ['None', 'Apache 2.0','APM','Eclipse','GitHub','MIT','Mozilla-Public','NPM'],
         validate: licenseSelection => {
             if (licenseSelection){
                 return true;
@@ -137,13 +137,6 @@ const questions = () => {
     }
 ])
 }
-   
-
-// should generate the following (from readme guide) - take to markdown file but keep for question prompt reference - also in notes app
-
-// addition of license (REQUIRED) ${data.license}
-        // badges for license to visually display (in generatemarkdown js)
-
 
 // TODO: Create a function to write README file 
 const writeToFile = (data) => {
@@ -154,7 +147,7 @@ const writeToFile = (data) => {
 });
 }
 
-// TODO: Create a function to initialize app - put as a promise chain functionality
+// TODO: Create a function to initialize app - put as a promise chain functionality instead
 questions()
 .then(data => {console.log('Done!'); return data})
     .then(data => {return generateMarkdown(data)})
