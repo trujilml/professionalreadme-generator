@@ -1,10 +1,10 @@
 
-  # top 3
+  # taco shop
 
-  ![License](http://img.shields.io/badge/license-GitHub-blue.svg)
+  ![License](http://img.shields.io/badge/license-MIT,Mozilla-public,GitHub-blue.svg)
 
   ## Description
-  tacop
+  tacos
 
   ## Table of Contents
   - [Description](#Description)
@@ -16,26 +16,26 @@
   - [Questions](#Questions)
 
   ## Installation
-  no install
+  no isntall
 
   ## Usage
-  noway
+  no use
 
   ## Contributions
-  no contrbute
+  no contribute
 
   ## Test
-  no test
+  no tests
 
   ## License
-  This application is covered by the GitHub license.
+  This application is covered by the MIT,Mozilla-public,GitHub license.
 
-  ![License](http://img.shields.io/badge/license-GitHub-blue.svg)
+  ![License](http://img.shields.io/badge/license-MIT,Mozilla-public,GitHub-blue.svg)
 
 
   ## Questions
   If you have any questions regarding this project, feel free to reach out to the GitHub and/or email below:
 
-  - GitHub: ("https://github.com/trujilml")
+  - GitHub: https://github.com/trujilml
   - Email address: mickeytrj@gmail.com
 

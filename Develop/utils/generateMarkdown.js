@@ -5,12 +5,12 @@
 // }
 
 function renderLicenseBadge(license) {
-  if (license === "no"){
-    return ``
-  } else {
+  // if (license === "no"){
+  //   return ``
+  // } else {
     return `![License](http://img.shields.io/badge/license-${license}-blue.svg)`
   }
-}
+// }
 
 
 // TODO: Create a function that returns the license link
@@ -67,7 +67,7 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions regarding this project, feel free to reach out to the GitHub and/or email below:
 
-  - GitHub: ("https://github.com/${data.github}")
+  - GitHub: https://github.com/${data.github}
   - Email address: ${data.email}
 
 `;
