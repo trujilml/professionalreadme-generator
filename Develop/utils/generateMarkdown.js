@@ -50,8 +50,8 @@ function generateMarkdown(data) {
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [Contributions](#Contributions)
-  - [Test](#Test)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
   ${renderLicenseLink(data.license)}
   - [Questions](#Questions)
 
@@ -61,17 +61,17 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Contributions
+  ## Contributing
   ${data.contributions}
 
-  ## Test
+  ## Tests
   ${data.test}
 
   ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}
 
   ## Questions
-  If you have any questions regarding this project, feel free to reach out to the GitHub and/or email below:
+  If you have any questions regarding this project, feel free to reach out to the GitHub username and/or email below:
 
   - GitHub: https://github.com/${data.github}
   - Email address: ${data.email}

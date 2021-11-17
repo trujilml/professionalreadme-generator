@@ -68,7 +68,7 @@ const questions = () => {
         //contributions - how would you want contributors on this project? Required input - ${data.contributions} on generateMarkdown file
         type: 'input',
         name: 'contributions',
-        message: 'List how you would want others to contribute on this project. (Required)',
+        message: 'List whether you want other users to contribute on this project. (Required)',
         validate: contributionInput => {
             if (contributionInput) {
                 return true;
@@ -140,7 +140,7 @@ const questions = () => {
 
 // TODO: Create a function to write README file 
 const writeToFile = (data) => {
-    fs.writeFile('./dist/README.md', data, err => {
+    fs.writeFile('./dist/sampleREADME.md', data, err => {
         if (err) 
             throw err;
            console.log("README file has been created!");
