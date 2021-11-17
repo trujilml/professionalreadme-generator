@@ -1,31 +1,40 @@
-// TODO: Create a function that returns a license badge based on which license is passed in - will be placed within either this doc or index.js
+// TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   return `![License](https://img.shields.io/badge/license-${license}-blue.svg)`
-// }
+//restructed all as consts - made sure they all aligned with rest of markdown file alone
 
-function renderLicenseBadge(license) {
-    if (license === "None"){
-      return ``
-    } else {
+const renderLicenseBadge = (license) => {
+  if (license === "None") {
+    return "";
+  } else {
         return `![License](http://img.shields.io/badge/license-${license}-blue.svg)`
-    }
 }
-
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 
-// function renderLicenseLink(license) {}
+ const renderLicenseLink = (license) => {
+  if (license === "None") {
+    return "";
+  } else {
+    return `- [License](#License)`
+  }
+ };
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 
-// function renderLicenseSection(license) {}
+const renderLicenseSection = (license) => {
+  if (license === "None") {
+    return "";
+  } else {
+    return `## License
+    
+    This application is covered by the ${license} license.`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
-
-// or make below a const followed by an arrow function 
 
 
 function generateMarkdown(data) {
@@ -43,7 +52,7 @@ function generateMarkdown(data) {
   - [Usage](#Usage)
   - [Contributions](#Contributions)
   - [Test](#Test)
-  - [License](#License)
+  ${renderLicenseLink(data.license)}
   - [Questions](#Questions)
 
   ## Installation
@@ -58,11 +67,7 @@ function generateMarkdown(data) {
   ## Test
   ${data.test}
 
-  ## License
-  This application is covered by the ${data.license} license.
-
-  ${renderLicenseBadge(data.license)}
-
+  ${renderLicenseSection(data.license)}
 
   ## Questions
   If you have any questions regarding this project, feel free to reach out to the GitHub and/or email below:

@@ -94,10 +94,10 @@ const questions = () => {
     },
     {
         //license questions ${data.license} and ${license} respectively - will ask users on what license best suits their project and will elect their badge to appear on the readme file. must fit in with the link format or above function on generate markdown page
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
-        message: 'What license fits with your project? Please choose only one (Required)',
-        choices: ['Apache','APM','MIT','Mozilla-public','GitHub','NPM','REUSE Compliance', 'None'],
+        message: 'What license fits with your project? Please choose one.',
+        choices: ['None', 'MIT','Mozilla','GitHub','NPM','Apache 2.0'],
         validate: licenseSelection => {
             if (licenseSelection){
                 return true;
