@@ -73,7 +73,35 @@ const questions = () => {
             if (contributionInput) {
                 return true;
             } else {
-                console.log("Please enter instructions on how you would want contributions on this project.");
+                console.log("Please enter the instructions on how you would want contributions on this project.");
+                return false;
+            }
+        }
+    },
+    {
+        //testing - how would you test your project? Required input - ${data.test} on generateMarkdown file
+        type: 'input',
+        name: 'test',
+        message: 'How do you test your project? (Required)',
+        validate: testInput => {
+            if (testInput){
+                return true;
+            } else {
+                console.log("Please enter the instructions on how you would test your project.");
+                return false;
+            }
+        }
+    },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'What license fits with your project? (Required)',
+        choices: ['Apache','APM','MIT','Mozilla-public','GitHub','NPM','REUSE Compliance'],
+        validate: licenseSelection => {
+            if (licenseSelection){
+                return true;
+            } else {
+                console.log("Please choose a license for your project!");
                 return false;
             }
         }
