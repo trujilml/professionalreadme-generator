@@ -33,8 +33,8 @@ THEN I am taken to the corresponding section of the README
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Tests](#Tests)
-  - [Developed with](#Developed)
-  - [Helpful resources](#Helpful)
+  - [Developed with](#Developed-with)
+  - [Helpful resources](#Helpful-resources)
 
 <!-- implement screenshot and link to a video when recorded -->
 
