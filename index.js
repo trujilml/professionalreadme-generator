@@ -93,6 +93,7 @@ const questions = () => {
         }
     },
     {
+        //license questions ${data.license} - will ask users on what license best suits their project and will elect their badge to appear on the readme file. must fit in with the link format or above function on generate markdown page
         type: 'checkbox',
         name: 'license',
         message: 'What license fits with your project? (Required)',
@@ -105,17 +106,41 @@ const questions = () => {
                 return false;
             }
         }
+    },
+    {
+        //for the questions section, github username (which is attached to a link) and an email address is required. represented here is the github username - {data.github} in the generate markdown page
+        type: 'input',
+        name: 'github',
+        message: 'For the questions section, contact information is required. Please enter your GitHub username.',
+        validate: gitHubInput => {
+            if (gitHubInput){
+                return true;
+            } else {
+                console.log("Please enter your GitHub username.");
+                return false;
+            }
+        }
+    },
+    {
+        //represented is the email address - {data.email} in the generate markdown page
+        type: 'input',
+        name: 'email',
+        message: 'For the questions section, contact information is required. Please enter your email address.',
+        validate: emailInput => {
+            if (emailInput){
+                return true;
+            } else {
+                console.log("Please enter your email address.");
+                return false;
+            }
+        }
     }
-
-
-
 ])
 }
    
 
 // should generate the following (from readme guide) - take to markdown file but keep for question prompt reference - also in notes app
 
-// tests/instruction example of project (REQUIRED) ${data.test}
 // addition of license (REQUIRED) ${data.license}
         // badges for license to visually display (in generatemarkdown js)
 //questions - added github username links to your github account and  added email address allowing those to contact you (REQUIRED)
