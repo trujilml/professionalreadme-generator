@@ -1,17 +1,18 @@
 # Professional README Generator 
 
-<!-- add screenshot here or gif of application runthrough -->
+![Professional README Generator Gif](demo/challenge9demo.gif)
+
 ## Description
 
-This is a README Generator that quickly creates a README.md for your latest project!
+This is a README Generator that generates a README.md for your latest project!
 
-Through the use of your terminal and the simple type of `node index.js`, you will enter in a few things about your project and implement it into a professional README.md file.
+Through the use of your terminal and the simple type of `node index.js`, you will enter in a few things about your project and implement it into a professional README.md file. The command-line application easily accepts all required use input for creating your README file, including the option to implement a license feature with its respective badge. 
 
 
 
 
 Acceptance Criteria
-GIVEN a command-line application that accepts user input
+
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 WHEN I enter my project title
@@ -34,41 +35,19 @@ THEN I am taken to the corresponding section of the README
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [Developed With](#Developed-with)
-  - [Helpful Resources](#Helpful-resources)
-
-  <!-- further contents with multiple words must have their hashtag terms with a (-)! -->
-
-<!-- implement screenshot and link to a video when recorded -->
 
 ## Installation 
-- Clone this file through GitHub (by Code option)
-- Ensure npm is installed on your computer, alongside the Inquirer package
+- Clone this file through GitHub (by Code option above)
+- Ensure Node.js and npm is installed on your computer, alongside the Inquirer package from npm. 
 
 ## Usage 
-- Open terminal of readme generator file through Terminal application on Mac or through the terminal on VS Code
+- Open terminal of readme generator file through the Terminal application on Mac or through the Integrate Terminal on VS Code
 - Type 'node index.js' 
-- Follow and answer with the given prompts - all assets excluding the license and badge are required to fill out the README file
-- A README.md file will be generated when completed.
+- Follow and answer with the given prompts - all assets excluding the license and badge are required to fill out the README file. A 'None' option, when selected from the license prompt, will remove the license and badge option from your generated readme page.
+- A README.md file will be generated when completing all the prompts.
 
-## Developed with 
+## Developed With 
 - Node.js
 - JavaScript 
 - Inquirer package (viewable in package.json)
-
-## Helpful resources
-Refer to:
-[How to create a Professional README](./readme-guide.md)
-
-## Your Task (Personal Instructions)
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
-
-You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package (Links to an external site.). Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
-
-The application will be invoked by using the following command:
-
-node index.js
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit 2.2.4: Screencastify Tutorial in Module 2 of the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video and add it to the README of your project.
 

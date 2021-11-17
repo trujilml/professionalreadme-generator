@@ -1,10 +1,10 @@
 
-  # Top 3 Taco Shops
+  # Mekayla's Project
 
   ![License](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  A website highlighting top taco shops in Austin, Texas
+  A project made with JavaScript, Node.js, and npm inquirer.
 
   ## Table of Contents
   - [Description](#Description)
@@ -16,16 +16,16 @@
   - [Questions](#Questions)
 
   ## Installation
-  Project requires no installation
+  It requires npm install followed by node.js on to the project file in VS Code.
 
   ## Usage
-  Usage of project is through the interactive webpage
+  You use it by entering in required prompts, followed by a printout of the file with these prompts as a result.
 
   ## Contributing
-  No contributions are needed as the project is completed
+  No contributors are needed at this time.
 
   ## Tests
-  No tests are required for the website
+  Tests are not required for this project.
 
   ## License
     
