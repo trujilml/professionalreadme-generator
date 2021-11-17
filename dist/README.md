@@ -1,10 +1,10 @@
 
-  # taco shop
+  # Taco Shop
 
-  ![License](http://img.shields.io/badge/license-MIT,Mozilla-public,GitHub-blue.svg)
+  ![License](http://img.shields.io/badge/license-None-blue.svg)
 
   ## Description
-  tacos
+  Taco shops
 
   ## Table of Contents
   - [Description](#Description)
@@ -16,21 +16,21 @@
   - [Questions](#Questions)
 
   ## Installation
-  no isntall
+  No install
 
   ## Usage
   no use
 
   ## Contributions
-  no contribute
+  no contributors
 
   ## Test
   no tests
 
   ## License
-  This application is covered by the MIT,Mozilla-public,GitHub license.
+  This application is covered by the None license.
 
-  ![License](http://img.shields.io/badge/license-MIT,Mozilla-public,GitHub-blue.svg)
+  ![License](http://img.shields.io/badge/license-None-blue.svg)
 
 
   ## Questions
