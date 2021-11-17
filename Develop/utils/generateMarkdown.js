@@ -1,8 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in - will be placed within either this doc or index.js
 // If there is no license, return an empty string
+// function renderLicenseBadge(license) {
+//   return `![License](https://img.shields.io/badge/license-${license}-blue.svg)`
+// }
+
 function renderLicenseBadge(license) {
-  return `![License](https://img.shields.io/badge/license-${license}-blue.svg)`
+  if (license === "no"){
+    return ``
+  } else {
+    return `![License](http://img.shields.io/badge/license-${license}-blue.svg)`
+  }
 }
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -22,6 +31,8 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
+
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -48,9 +59,9 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## License
-  ${renderLicenseBadge(data.license)}
-  
   This application is covered by the ${data.license} license.
+
+  ${renderLicenseBadge(data.license)}
 
 
   ## Questions

@@ -97,7 +97,7 @@ const questions = () => {
         type: 'checkbox',
         name: 'license',
         message: 'What license fits with your project? (Required)',
-        choices: ['Apache','APM','MIT','Mozilla-public','GitHub','NPM','REUSE Compliance'],
+        choices: ['Apache','APM','MIT','Mozilla-public','GitHub','NPM','REUSE Compliance', 'None'],
         validate: licenseSelection => {
             if (licenseSelection){
                 return true;

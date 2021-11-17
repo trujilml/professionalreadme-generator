@@ -1,8 +1,10 @@
 
-  # Top 3
+  # top 3
+
+  ![License](http://img.shields.io/badge/license-GitHub-blue.svg)
 
   ## Description
-  taco shops
+  tacop
 
   ## Table of Contents
   - [Description](#Description)
@@ -17,18 +19,18 @@
   no install
 
   ## Usage
-  use of webpage
+  noway
 
   ## Contributions
-  no contributors for now
+  no contrbute
 
   ## Test
-  no tests are needed
+  no test
 
   ## License
-  ![License](https://img.shields.io/badge/license--blue.svg)
-  
-  This application is covered by the  license.
+  This application is covered by the GitHub license.
+
+  ![License](http://img.shields.io/badge/license-GitHub-blue.svg)
 
 
   ## Questions
