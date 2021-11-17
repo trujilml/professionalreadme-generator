@@ -1,10 +1,10 @@
 
-  # taco shop
+  # taco shops
 
-  ![License](http://img.shields.io/badge/license-GitHub-blue.svg)
+  
 
   ## Description
-  taco shops in atx
+  no 
 
   ## Table of Contents
   - [Description](#Description)
@@ -12,24 +12,22 @@
   - [Usage](#Usage)
   - [Contributions](#Contributions)
   - [Test](#Test)
-  - [License](#License)
+  
   - [Questions](#Questions)
 
   ## Installation
-  no instsll
+  install no
 
   ## Usage
-  no use
+  no 
 
   ## Contributions
-  no contribute
+  no
 
   ## Test
-  no test
+  no
 
-  ## License
-    
-    This application is covered by the GitHub license.
+  
 
   ## Questions
   If you have any questions regarding this project, feel free to reach out to the GitHub and/or email below:
